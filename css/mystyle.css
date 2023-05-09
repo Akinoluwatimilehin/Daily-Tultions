@@ -191,7 +191,70 @@
     padding-left: 12rem;
 }
 
+.site-main .brand-area .experience-area .call-area span > i {
+    font-size: 20px;
+}
+
 /*End Brand Area*/
+
+/*Sevices Area*/
+
+.site-main .services-area {
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title {
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1 {
+    font-size: 35px;
+}
+
+.site-main > .services-area .services {
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover {
+    box-shadow: 0px 10px 30px rgba(57,56,61,0.205);
+}
+/* End Sevices Area*/
+
+/* Project Area*/
+
+.site-main .project-area {
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button {
+    background: transparent;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130px;
+    font-family: var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project > .title h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 12px;
+    font-family: var(--roboto);
+}
+
+/* End Project Area*/
+
 
 
 
